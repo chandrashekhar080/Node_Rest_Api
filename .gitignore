@@ -1,0 +1,18 @@
+# Ignore node_modules folder
+node_modules/
+
+# Ignore environment variables
+.env
+
+# Ignore build folder
+dist/
+
+# Ignore logs
+logs/
+*.log
+
+# Ignore lock
+package-lock.json
+
+#Ignore Yarn
+yarn.lock
