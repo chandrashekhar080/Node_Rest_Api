@@ -16,3 +16,13 @@ package-lock.json
 
 #Ignore Yarn
 yarn.lock
+
+
+//  res.send("Hey its Auth Routes");
+  //   const user = await new User({
+  //     userName:"ram",
+  //     userPassword:"12345688",
+  //     email:"ram@gmail.com",
+  // });
+  // await user.save();
+  // res.send("Ok!👍")

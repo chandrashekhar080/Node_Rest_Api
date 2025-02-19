@@ -7,6 +7,7 @@ const nodemon = require("nodemon");
 const helmet = require("helmet");
 const morgan = require("morgan");
 const userRoutes = require("./routes/users");
+const authRoutes = require("./routes/auth");
 
 dotenv.config();
 
@@ -26,6 +27,7 @@ app.use(express.json());
 app.use(helmet());
 app.use(morgan('common'));
 app.use("/api/users", userRoutes);
+app.use("/api/auth", authRoutes);
 
 
 //Use App

@@ -9,6 +9,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "bcrypt": "^5.1.1",
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
     "helmet": "^8.0.0",
